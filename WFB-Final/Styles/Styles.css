@@ -1,0 +1,117 @@
+/* Websites for Beginners */
+/* Daily Challenge for Day 4 */
+/* Allen Prowell */
+/* Styles.css */
+/* 11/13/2021 */
+
+/* Define color names to match images */
+/* The following colors were picked from an image of a granny square. */
+:root {
+  --lightaran: #e1ddc4;
+  --darkaran: #dcd4bc;
+  --lightbuff: #cebb93;
+  --darkbuff: #beaf86;
+  --lightlatte: #846e4c;
+  --darklatte: #584827;
+  --lightcoffee: #22140d;
+  --darkcoffee: #040501;
+}
+
+body {
+  margin: 0;
+  font-size: x-large;
+  color: var(--lightcoffee);
+  background-color: var(--lightaran);
+}
+
+nav {
+  display: block;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: var(--lightaran);
+  background-color: var(--lightcoffee);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: var(--lightaran);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: var(--darklatte);
+}
+
+nav .active {
+  color: var(--lightcoffee);
+  background-color: var(--darkbuff);
+}
+
+nav::after {
+  clear:both;
+}
+
+h1 {
+  text-align: center;
+}
+
+h6 {
+  text-align: right;
+  margin-right: 10px;
+  font-size: large;
+  font-weight: normal;
+}
+
+img {
+  width: 100%;
+}
+
+.main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logo {
+  width: 44px;
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 0px;
+}
+.leftimage1 {
+  float: left;
+  margin-right: 10px;
+  width: 33%;
+}
+
+.leftimage2 {
+  float: left;
+  margin-right: 10px;
+  width: 25%;
+}
+
+.rightimage1 {
+  float: right;
+  margin-left: 10px;
+  width: 33%;
+}
+
+.rightimage2 {
+  float: right;
+  margin-left: 10px;
+  width: 25%;
+}
