@@ -1,8 +1,8 @@
 /* Websites for Beginners */
-/* Daily Challenge for Day 4 */
-/* Allen Prowell */
+/* Final Project */
+/* Allen P. */
 /* Styles.css */
-/* 11/13/2021 */
+/* 12/12/2021 */
 
 /* Define color names to match images */
 /* The following colors were picked from an image of a granny square. */
@@ -19,6 +19,7 @@
 
 body {
   margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: x-large;
   color: var(--lightcoffee);
   background-color: var(--lightaran);
@@ -85,6 +86,25 @@ img {
   margin-right: 10px;
 }
 
+.hero-image {
+  background-image: url("../Media/KnitBack.jpg");
+  background-color: #cccccc;
+  height: 720px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--lightcoffee);
+}
+
 .logo {
   width: 44px;
   margin-top: 3px;
@@ -92,6 +112,7 @@ img {
   margin-right: 3px;
   padding: 0px;
 }
+
 .leftimage1 {
   float: left;
   margin-right: 10px;
