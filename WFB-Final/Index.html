@@ -2,7 +2,7 @@
 <!-- Final Project -->
 <!-- Allen P. -->
 <!-- Index.html -->
-<!-- 12/12/2021 -->
+<!-- 12/18/2021 -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,32 +10,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Styles/Styles.css" />
+    <link rel="stylesheet" href="./Styles/Styles.css" />
     <title>Allen&rsquo;s Yarn Crafts</title>
+    <link rel="icon" type="image/x-icon" href="./Media/GS-Icon.ico" />
+    <!-- Script to enable fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/d5fdc24f4a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script for social media links -->
+    <script>
+      function social_alert() {
+        alert(
+          "Social media links are not yet implemented. Please check again in a few months."
+        );
+      }
+    </script>
   </head>
   <body>
     <div class="hero-image">
       <nav>
-      <ul>
-        <li>
-          <a style="padding: 1px" href="Gallery.html">
-            <img
-              class="logo"
-              src="Media\Granny Square Letter A.png"
-              alt="Logo"
-            />
-          </a>
-        </li>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="Gallery.html">Gallery</a></li>
-        <li><a href="Current.html">Current</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-      </ul>
-    </nav>
+        <ul>
+          <li>
+            <a style="padding: 1px" href="Gallery.html">
+              <img
+                class="logo"
+                src="Media\Granny Square Letter A.png"
+                alt="Logo"
+              />
+            </a>
+          </li>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="Current.html">Current</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
       <div class="hero-text">
         <h1>Allen&rsquo;s Yarn Crafts</h1>
-        <p style="font-weight: bold;">
+        <p style="font-weight: bold">
           This website began as a project for the Websites for Beginners class.
           Computers is one of my passions; another is yarn crafts. So it made
           sense to fulfill my class project requirements with something I
@@ -89,5 +103,22 @@
         sapiente.
       </p>
     </div>
+    <footer>
+      <p>
+        <a href="#" onclick="social_alert()">
+          <i class="fab fa-facebook-square fa-2x"></i>
+        </a>
+        <a href="#" onclick="social_alert()">
+          <i class="fab fa-instagram-square fa-2x"></i>
+        </a>
+        <a href="#" onclick="social_alert()">
+          <i class="fab fa-twitter-square fa-2x"></i>
+        </a>
+        <a href="#" onclick="social_alert()">
+          <i class="fab fa-youtube-square fa-2x"></i>
+        </a>
+      </p>
+      <p>Design Copyright &copy; 2021 Allen&rsquo;s Yarn Crafts</p>
+    </footer>
   </body>
 </html>
