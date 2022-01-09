@@ -2,7 +2,7 @@
 <!-- Final Project -->
 <!-- Allen P. -->
 <!-- Contact.html -->
-<!-- 12/18/2021 -->
+<!-- 01/08/2022 -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,8 +11,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Styles\Styles.css" />
-    <title>Allen's Yarn Crafts</title>
-    <link rel="icon" type="image/x-icon" href="./Media/GS-Icon.ico">
+    <link rel="stylesheet" href="Styles\Contact.css" />
+    <title>Creative Yarn Crafts</title>
+    <link rel="icon" type="image/x-icon" href="./Media/GS-Icon.ico" />
     <!-- Script to enable fontawesome -->
     <script
       src="https://kit.fontawesome.com/d5fdc24f4a.js"
@@ -23,6 +24,14 @@
       function social_alert() {
         alert(
           "Social media links are not yet implemented. Please check again in a few months."
+        );
+      }
+    </script>
+    <!-- Script for submit button -->
+    <script>
+      function submit_alert() {
+        alert(
+          "Submit button is not yet implemented. Please check again in a few months. For now, please send an email to k0mputer-n3rd@outlook.com. (Yes, that is a zero after the k.)"
         );
       }
     </script>
@@ -48,14 +57,7 @@
     </nav>
     <br />
     <div class="main">
-      <h6>Allen&rsquo;s Yarn Crafts</h6>
-      <h1>Contact Me</h1>
-      <p>
-        I love to hear from my website visitors. Please let me know what you
-        think of this site, and what you might like to see on the site in the
-        future. If you check the box for mailing list, I will email you when
-        major changes are made to the site, so you can check it out.
-      </p>
+      <h6>Creative Yarn Crafts</h6>
       <img
         class="leftimage2"
         src="Media\Granny Square Regular.png"
@@ -66,38 +68,70 @@
         src="Media\Granny Square Letter A.png"
         alt="Square"
       />
-      <h2>Contact Form</h2>
+      <h1>Contact Me</h1>
       <p>
-        A contact form will be placed here. It will include name, email, mailing list (checkbox) and message.
+        I love to hear from my website visitors. Please let me know what you
+        think of this site, and what you might like to see on the site in the
+        future. If you check the box for mailing list, I will email you when
+        major changes are made to the site, so you can check it out. To report a
+        problem or error in a pattern found on this site, check the report
+        problem box.
       </p>
+    </div>
+    <div class="container">
+      <div style="text-align: center">
+        <form>
+          <label for="fname">First Name</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          /><br />
+          <label for="lname">Last Name</label><br />
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          /><br />
+          <label for="country">Country</label><br />
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option></select
+          ><br />
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Add me to your mailing list
+          </label><br />
+          <label>
+            <input type="checkbox" name="remember" style="margin-bottom:15px"> Report a problem
+          </label><br />
+          <label for="comment">Comments</label><br />
+          <textarea
+            id="comment"
+            name="comment"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea
+          ><br />
+          <input type="submit" value="Submit" onclick="submit_alert()"/>
+        </form>
+      </div>
+    </div>
+    <div class="main">
+      <img
+        class="leftimage3"
+        src="Media\Granny Square Letter A.png"
+        alt="Square"
+      />
+      <img
+        class="rightimage3"
+        src="Media\Granny Square Regular.png"
+        alt="Square"
+      />
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde suscipit
-        officia alias, sed voluptatibus odio perspiciatis, ut, voluptas illum
-        modi ad a iusto? Tempora, ea. Doloremque corrupti cum commodi dolore
-        accusantium voluptate suscipit sequi esse dignissimos minima quidem
-        totam fuga laudantium perferendis, ab quo aspernatur nemo? Perferendis
-        autem assumenda dolorem ut voluptatibus fuga beatae quibusdam impedit
-        blanditiis rerum, sit, quo eaque ducimus distinctio exercitationem natus
-        dicta delectus nesciunt, molestiae reprehenderit laboriosam. Deleniti,
-        nostrum quasi? Aliquid asperiores omnis tempora ipsam vel nam recusandae
-        labore corporis quam officiis sequi atque numquam quod quos praesentium
-        rem porro, vitae eos saepe expedita facere ratione. Corrupti eos
-        recusandae veniam maxime magnam tenetur ut, dicta accusamus odit amet
-        velit, obcaecati cum saepe laboriosam ipsam voluptate perferendis!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, sed ad
-        incidunt veritatis molestiae accusamus nisi id qui possimus ipsam
-        perferendis, ducimus distinctio cum repellendus quidem sapiente laborum
-        dolorum quos! Fuga maiores veniam vitae blanditiis vero recusandae!
-        Temporibus porro cupiditate quisquam enim! Doloribus quisquam recusandae
-        assumenda temporibus inventore optio magnam adipisci similique
-        exercitationem rerum a placeat voluptas quam ipsum obcaecati
-        necessitatibus tempore, sint architecto natus fugiat nihil laboriosam
-        nisi facilis? Similique aspernatur dolor laborum incidunt perspiciatis,
-        officia cumque libero iste in quaerat ab, repellendus nam! Ad
-        consequatur sit dolore delectus rem. Natus fuga perspiciatis consequatur
-        sapiente.
+        Unfortunately, I haven&rsquo;t yet learned how to make my website send a message to me. You can contact me by email at k0mputer-n3rd@outlook.com. (Yes, that is a zero after the k.) Getting the submit button to work is a priority, but I have to learn how to do it first.
       </p>
     </div>
     <footer>
@@ -115,7 +149,7 @@
           <i class="fab fa-youtube-square fa-2x"></i>
         </a>
       </p>
-      <p>Design Copyright &copy; 2021 Allen&rsquo;s Yarn Crafts</p>
+      <p>Website Design and Content Copyright &copy; 2022 Creative Yarn Crafts</p>
     </footer>
   </body>
 </html>
