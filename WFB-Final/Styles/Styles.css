@@ -2,7 +2,7 @@
 /* Final Project */
 /* Allen P. */
 /* Styles.css */
-/* 01/08/2022 */
+/* 01/09/2022 */
 
 /* Define color names to match images */
 /* The following colors were picked from an image of a granny square. */
@@ -17,10 +17,9 @@
   --darkcoffee: #040501;
 }
 
-
 body {
   margin: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: x-large;
   color: var(--lightcoffee);
   background-color: var(--lightaran);
@@ -64,7 +63,7 @@ nav .active {
 }
 
 nav::after {
-  clear:both;
+  clear: both;
 }
 
 h1 {
@@ -204,4 +203,11 @@ footer a:hover {
   float: right;
   margin-left: 10px;
   width: 15%;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
