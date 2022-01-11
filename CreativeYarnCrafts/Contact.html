@@ -1,0 +1,172 @@
+<!-- Creative Yarn Crafts -->
+<!-- K0mputer N3rd -->
+<!-- 01/09/2022 -->
+
+<!-- Contact.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles\Styles.css" />
+    <link rel="stylesheet" href="Styles\Contact.css" />
+    <title>Creative Yarn Crafts</title>
+    <link rel="icon" type="image/x-icon" href="./Media/GS-Icon.ico" />
+    <!-- Script to enable fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/d5fdc24f4a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script for social media links -->
+    <script>
+      function social_alert() {
+        alert(
+          "Social media links are not yet implemented. Please check again in a few months."
+        );
+      }
+    </script>
+    <!-- Script for submit button -->
+    <script>
+      function submit_alert() {
+        alert(
+          "Submit button is not yet implemented. Please check again in a few months. For now, please send an email to k0mputer-n3rd@outlook.com. (Yes, that is a zero after the k.)"
+        );
+      }
+    </script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a style="padding: 1px" href="Index.html">
+            <img
+              class="logo"
+              src="Media\Granny Square Letter A.png"
+              alt="Logo"
+            />
+          </a>
+        </li>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Tutorials.html">Tutorials</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Current.html">Current</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a class="active" href="#home">Contact</a></li>
+      </ul>
+    </nav>
+    <br />
+    <div class="main">
+      <h6>Creative Yarn Crafts</h6>
+      <img
+        class="leftimage2"
+        src="Media\Granny Square Regular.png"
+        alt="Square"
+      />
+      <img
+        class="rightimage2"
+        src="Media\Granny Square Letter A.png"
+        alt="Square"
+      />
+      <h1>Contact Me</h1>
+      <p>
+        I love to hear from my website visitors. Please let me know what you
+        think of this site, and what you might like to see on the site in the
+        future. If you check the box for mailing list, I will email you when
+        major changes are made to the site, so you can check it out. To report a
+        problem or error in a pattern found on this site, check the report
+        problem box.
+      </p>
+    </div>
+    <div class="container">
+      <div style="text-align: center">
+        <form>
+          <label for="fname">First Name</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          /><br />
+          <label for="lname">Last Name</label><br />
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          /><br />
+          <label for="country">Country</label><br />
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option></select
+          ><br />
+          <label>
+            <input
+              type="checkbox"
+              checked="checked"
+              name="remember"
+              style="margin-bottom: 15px"
+            />
+            Add me to your mailing list </label
+          ><br />
+          <label>
+            <input
+              type="checkbox"
+              name="remember"
+              style="margin-bottom: 15px"
+            />
+            Report a problem </label
+          ><br />
+          <label for="comment">Comments</label><br />
+          <textarea
+            id="comment"
+            name="comment"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea
+          ><br />
+          <input type="submit" value="Submit" onclick="submit_alert()" />
+        </form>
+      </div>
+    </div>
+    <div class="main">
+      <img
+        class="leftimage3"
+        src="Media\Granny Square Letter A.png"
+        alt="Square"
+      />
+      <img
+        class="rightimage3"
+        src="Media\Granny Square Regular.png"
+        alt="Square"
+      />
+      <p>
+        Unfortunately, I haven&rsquo;t yet learned how to make my website send a
+        message to me. You can contact me by email at k0mputer-n3rd@outlook.com.
+        (Yes, that is a zero after the k.) Getting the submit button to work is
+        a priority, but I have to learn how to do it first.
+      </p>
+    </div>
+    <footer>
+      <p>
+        <a href="#" onclick="social_alert()">
+          <i class="fab fa-facebook-square fa-2x"></i>
+        </a>
+        <a href="#" onclick="social_alert()">
+          <i class="fab fa-instagram-square fa-2x"></i>
+        </a>
+        <a href="#" onclick="social_alert()">
+          <i class="fab fa-twitter-square fa-2x"></i>
+        </a>
+        <a href="#" onclick="social_alert()">
+          <i class="fab fa-youtube-square fa-2x"></i>
+        </a>
+      </p>
+      <p>
+        Website Design and Content Copyright &copy; 2022 Creative Yarn Crafts
+      </p>
+    </footer>
+  </body>
+</html>
